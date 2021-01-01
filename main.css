@@ -35,13 +35,25 @@ body {
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
 }
-
+.card-gap {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+.card-journey {
+    width: 400px !important;
+}
+.breadcrumb-journey {
+    margin-left: 30px;
+}
+.btn-explore {
+    margin-top: 110px !important;
+}
 /* Desktop view */
 @media (min-width: 1200px) {
     .card-phone {
         width: 1000px !important;
     }
-    .card-body {
+    .card-index {
         margin-left: -350px;
     }
     .btn-log {
@@ -86,5 +98,34 @@ body {
     }
     .lottie-animations {
         margin-left: 100px;
+    }
+
+    /* Journey.html */
+    .journey-section {
+        margin-top: 20px;
+    }
+    .card-gap {
+        margin-right: 1rem !important;
+        margin-left: 1rem !important;
+    }
+    .card-journey {
+        width: 18rem !important;
+    }
+    .btn-explore {
+        margin-top: 85px !important;
+    }
+    .centered-image {
+        text-align: center;
+    }
+    .text-news {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 700;
+    }
+    .text-sub {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+    }
+    .error-animation {
+        transform: translate(50px, 50px);
     }
  }
